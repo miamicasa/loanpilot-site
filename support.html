@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LoanPilot — Support</title>
+<style>
+  :root { --ink:#16232e; --muted:#5b6b78; --accent:#0b6e4f; --bg:#fff; --line:#e3e9e7; --panel:#f4f7f6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8eef2; --muted:#9fb0bc; --accent:#2fa57e; --bg:#10181e; --line:#263440; --panel:#18232b; }
+  }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--ink);
+         font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 24px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 16px; }
+  h2 { font-size:1.15rem; margin:28px 0 8px; }
+  p, ul { margin:10px 0; } ul { padding-left:22px; } li { margin:5px 0; }
+  a { color:var(--accent); }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px;
+          padding:18px 20px; margin:20px 0; }
+  .fine { color:var(--muted); font-size:.88rem; margin-top:36px;
+          border-top:1px solid var(--line); padding-top:18px; }
+  .fine a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+
+  <div class="card">
+    <p><strong>Email:</strong> <a href="mailto:becermur@gmail.com">becermur@gmail.com</a></p>
+    <p>Include your app version (Settings tab → About) if your question is about a
+    calculation. We aim to reply within two business days.</p>
+  </div>
+
+  <h2>Common questions</h2>
+  <ul>
+    <li><strong>Why does my number differ from my servicer's?</strong> Projections
+        assume flat income and on-time payments; your servicer uses your certified
+        income and payment history. See
+        <a href="how-we-compute.html">how we compute</a> for the exact formulas and
+        our assumptions.</li>
+    <li><strong>Where is my data stored?</strong> On your iPhone only. Use
+        Export in the app to make a backup before switching phones —
+        see the <a href="privacy.html">privacy policy</a>.</li>
+    <li><strong>How do I restore a purchase?</strong> Settings tab → Restore
+        Purchases, signed into the same Apple ID.</li>
+    <li><strong>Rules changed and the app shows a banner?</strong> That means an
+        app update with new repayment rules is available — update from the App
+        Store and the banner clears.</li>
+  </ul>
+
+  <h2>Found a wrong number?</h2>
+  <p>We treat calculation reports as bugs of the highest severity. Email the inputs
+  you used (no personal identifiers needed) and the number you expected — every
+  formula is tested against the statute text, and we publish
+  <a href="how-we-compute.html">how each plan is computed</a>.</p>
+
+  <p class="fine"><a href="index.html">LoanPilot home</a> ·
+  <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+</main>
+</body>
+</html>

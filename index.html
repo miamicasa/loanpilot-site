@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LoanPilot — SAVE is ending. See your real RAP payment before you switch.</title>
+<meta name="description" content="SAVE plan ending? Compare your exact monthly payment under RAP, IBR, and Standard before you switch — and track every PSLF payment with an audit trail. Calculations verified against the statute, on your device.">
+<style>
+  :root {
+    --ink: #16232e; --muted: #5b6b78; --accent: #0b6e4f; --accent-ink: #ffffff;
+    --bg: #ffffff; --panel: #f4f7f6; --line: #e3e9e7; --warn: #8a5a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #e8eef2; --muted: #9fb0bc; --accent: #2fa57e; --accent-ink: #06231a;
+            --bg: #10181e; --panel: #18232b; --line: #263440; --warn: #e0a83f; }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--ink);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; letter-spacing: -0.02em; margin: 16px 0 12px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 10px; }
+  p  { margin: 10px 0; }
+  .eyebrow { color: var(--accent); font-weight: 600; font-size: .95rem;
+             text-transform: uppercase; letter-spacing: .06em; }
+  .sub { color: var(--muted); font-size: 1.1rem; }
+  .cta { display: inline-block; margin: 24px 0 8px; padding: 14px 28px;
+         background: var(--accent); color: var(--accent-ink); border-radius: 10px;
+         font-weight: 650; text-decoration: none; }
+  .cta-note { color: var(--muted); font-size: .9rem; }
+  .numbers { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+             padding: 20px 22px; margin: 28px 0; }
+  .numbers table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  .numbers caption { text-align: left; color: var(--muted); font-size: .9rem; padding-bottom: 10px; }
+  .numbers th { text-align: left; font-weight: 600; padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .numbers td { padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .numbers tr:last-child td { border-bottom: 0; }
+  .numbers .pay { text-align: right; font-weight: 650; }
+  ul { padding-left: 22px; } li { margin: 6px 0; }
+  .fine { color: var(--muted); font-size: .88rem; margin-top: 36px;
+          border-top: 1px solid var(--line); padding-top: 18px; }
+  .fine a { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">SAVE is ending — the switch is a one-way door</p>
+  <h1>Know your exact RAP payment before you leave SAVE.</h1>
+  <p class="sub">LoanPilot compares your real monthly payment under RAP, IBR, and the
+  Standard plans — computed from the text of the law, not a blog's summary — and then
+  tracks every PSLF payment with an evidence trail your servicer can't argue with.</p>
+
+  <a class="cta" href="#">Get LoanPilot for iPhone</a>
+  <p class="cta-note">Coming to the App Store. $29.99/year after a 7-day free trial, or $4.99/month.</p>
+
+  <div class="numbers">
+    <table>
+      <caption>Example: $60,000 AGI, family of three, two dependents, $30,000 at 6%</caption>
+      <tr><th>Plan</th><th class="pay">Monthly</th></tr>
+      <tr><td>RAP (5% bracket, $50/dependent credit)</td><td class="pay">$150.00</td></tr>
+      <tr><td>IBR — new borrower (10% over 150% of poverty)</td><td class="pay">$158.50</td></tr>
+      <tr><td>Standard, 15-year tier</td><td class="pay">$253.16</td></tr>
+    </table>
+  </div>
+
+  <h2>Why trust these numbers?</h2>
+  <ul>
+    <li><strong>Statute-derived.</strong> Every formula comes from Public Law 119-21 and the
+        Higher Education Act — bracket boundaries, the $50 principal match, the interest
+        waiver — and is cross-checked to the cent against three independent calculators.
+        <a href="how-we-compute.html">See exactly how we compute</a>.</li>
+    <li><strong>Your data stays on your iPhone.</strong> No account, no cloud, no tracking.
+        One anonymous check tells the app when repayment rules change — that's the only
+        network call it makes.</li>
+    <li><strong>PSLF audit trail.</strong> Log qualifying payments, flag discrepancies
+        against your servicer's count, attach evidence, and export a dispute-ready report.</li>
+  </ul>
+
+  <h2>Switching plans is permanent. Guessing is expensive.</h2>
+  <p>Once SAVE's forbearance winds down, most borrowers get routed to RAP or IBR — and
+  the differences compound over decades: interest waivers, forgiveness clocks, tax
+  treatment. LoanPilot shows the full 30-year picture for each plan side by side, in
+  dollars, before you sign anything.</p>
+
+  <p class="fine">
+    LoanPilot provides estimates for education, not financial advice. Confirm your numbers
+    with your loan servicer before changing plans.<br>
+    <a href="privacy.html">Privacy policy</a> · <a href="support.html">Support</a> ·
+    <a href="terms.html">Terms</a>
+  </p>
+</main>
+</body>
+</html>
